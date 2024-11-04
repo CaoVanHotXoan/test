@@ -10,7 +10,7 @@ window.addEventListener("load", () => {
   //     // cancelButtonText: "Hông",
   //   }).then((result) => {
   //     //   if (result.isConfirmed) {
-  //     //    document.querySelector(".song").play();
+     document.querySelector(".song").play();
   animationTimeline();
   //     //    } else {
   //     //      animationTimeline();
