@@ -1,21 +1,21 @@
 // trigger to play music in the background with sweetalert
 window.addEventListener("load", () => {
-  //   Swal.fire({
-  //     title: "Oanh có muốn nghe nhạc hông >.0",
-  //     // icon: "warning",
-  //     // showCancelButton: true,
-  //     // confirmButtonColor: "#3085d6",
-  //     // cancelButtonColor: "#d33",
-  //     // confirmButtonText: "Có",
-  //     // cancelButtonText: "Hông",
-  //   }).then((result) => {
-  //     //   if (result.isConfirmed) {
+    Swal.fire({
+     title: "Oanh có muốn nghe nhạc hông >.0",
+      icon: "warning",
+     showCancelButton: true,
+   confirmButtonColor: "#3085d6",
+    cancelButtonColor: "#d33",
+      confirmButtonText: "Có",
+       cancelButtonText: "Hông",
+    }).then((result) => {
+         if (result.isConfirmed) {
      document.querySelector(".song").play();
   animationTimeline();
-  //     //    } else {
-  //     //      animationTimeline();
-  //     //    }
-  //   });
+    } else {
+        animationTimeline();
+     }
+    });
 });
 
 // animation timeline
